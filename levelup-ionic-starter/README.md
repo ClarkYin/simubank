@@ -13,7 +13,7 @@ $ npm install -g ionic cordova
 $ npm install
 
 # DEV instructions
-# Create environment.dev.ts as follows
+# Create environment.dev.ts /src/environments as follows
 	
 ~~~~
 import { Environment } from './environment.model';
@@ -24,7 +24,7 @@ export const ENV: Environment = {
   botsApiUrl: 'BOTS_API_URL_HERE'
 }
 ~~~~
-# Create environment.ts (Production) as follows
+# Create environment.ts (Production) in /src/environments as follows
 ~~~~
 import { Environment } from './environment.model';
 
